@@ -1,9 +1,9 @@
 from common.variables import *
 from errors import IncorrectDataRecivedError, NonDictInputError
 import json
+from decos import log
 import sys
 sys.path.append('../')
-from decos import log
 
 
 # Утилита приёма и декодирования сообщения
